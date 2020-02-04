@@ -27,4 +27,12 @@
 
 .cat_name, .cat_age {
   font-size: 30px;
+  color: grey;
+}
+
+.searchBox {
+  border: 5px solid grey;
+  height: 50px;
+  width: 300px;
+  font-size: 20px;
 }
