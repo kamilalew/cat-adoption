@@ -4,6 +4,8 @@
 
 .cat_name, .cat_age {
   border: 2px solid lightgray;
+  font-size: 20px;
+  color: grey;
 }
 
 .cat_age {
@@ -13,21 +15,25 @@
 .head {
   font-size: 20px;
   border: 2px solid lightgray;
+  border-radius: 5px;
 }
 
 .col {
-  font-size: 18px;
-  background-color: lightblue;
+  font-size: 22px;
+  color: white;
+  background-color: grey;
   border: 2px solid lightgray;
+  border-radius: 5px;
 }
 
 .cat_image {
-  height: 150px;
+  width: 100px;
+  border-radius: 10px;
+  transition: transform 1s;
 }
 
-.cat_name, .cat_age {
-  font-size: 30px;
-  color: grey;
+.cat_image:hover {
+  transform: scale(1.5);
 }
 
 .searchBox {
@@ -35,4 +41,5 @@
   height: 50px;
   width: 300px;
   font-size: 20px;
+  border-radius: 10px;
 }
