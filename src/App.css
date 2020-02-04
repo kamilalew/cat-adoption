@@ -1,0 +1,30 @@
+.App {
+  text-align: center;
+}
+
+.cat_name, .cat_age {
+  border: 2px solid lightgray;
+}
+
+.cat_age {
+  text-align: center;
+}
+
+.head {
+  font-size: 20px;
+  border: 2px solid lightgray;
+}
+
+.col {
+  font-size: 18px;
+  background-color: lightblue;
+  border: 2px solid lightgray;
+}
+
+.cat_image {
+  height: 150px;
+}
+
+.cat_name, .cat_age {
+  font-size: 30px;
+}
