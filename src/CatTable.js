@@ -43,7 +43,7 @@ export default class CatTable extends React.Component {
         console.log(this.props.kitties);
 
         return(
-            <table>
+            <table className="table">
                 <thead>
                 <tr>
                     <th className="head">Name</th>

@@ -10,7 +10,7 @@ export default class SearchBar extends React.Component {
 
 
         return(
-            <form>
+            <form className="search">
             <input className="searchBox" type="text" placeholder="Search..." onChange={this.props.onChangeFilterText} value={this.props.filterText}/>
             <p> <input type="checkbox" onChange={this.props.onChangeFilterBox} value={this.props.likesKids}/> Only show kitties that like kids</p>
         </form>
